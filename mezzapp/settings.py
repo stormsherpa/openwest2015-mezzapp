@@ -310,7 +310,7 @@ OPTIONAL_APPS = (
 )
 
 
-LOG_LOCATION = os.environ.get("MEZZAPP_LOG_LOCATION", "/var/log/mezzapp")
+LOG_LOCATION = os.environ.get("MEZZAPP_LOG_LOCATION", "/tmp")
 LOGGING = {
     'version': 1,
     'disable_existing_loggers': False,
